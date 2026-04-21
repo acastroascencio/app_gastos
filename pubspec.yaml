@@ -1,5 +1,5 @@
 name: app_gastos
-description: "Sistema de alquileres para mi papa"
+description: "Sistema de gestión inmobiliaria para mi papa."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,8 +10,14 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  shared_preferences: any
-  url_launcher: any
+  
+  # Librerías para Firebase (Nube)
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+
+  # Librería para WhatsApp y Memoria Local
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:
