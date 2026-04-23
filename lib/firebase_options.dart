@@ -83,4 +83,5 @@ class DefaultFirebaseOptions {
     authDomain: 'app-gastosv1.firebaseapp.com',
     storageBucket: 'app-gastosv1.firebasestorage.app',
   );
+
 }
